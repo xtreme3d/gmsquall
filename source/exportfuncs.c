@@ -125,3 +125,17 @@ SqExport double SquallChannelSetVolume(double chan, double vol)
     return SQUALL_Channel_SetVolume(int(chan), int(vol));
 }
 
+SqExport double SquallChannelSetPlayPositionMs(double chan, double pos)
+{
+    return SQUALL_Channel_SetPlayPositionMs(int(chan), int(pos));
+}
+
+SqExport double SquallChannelSetLoop(double chan, double loop)
+{
+    return SQUALL_Channel_SetLoop(int(chan), int(loop));
+}
+
+SqExport double SquallStop()
+{
+    return SQUALL_Stop();
+}

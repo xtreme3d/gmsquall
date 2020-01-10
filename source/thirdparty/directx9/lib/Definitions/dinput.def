@@ -1,0 +1,10 @@
+LIBRARY DINPUT.dll
+EXPORTS
+DirectInputCreateW@16
+DirectInputCreateEx@20
+DirectInputCreateA@16
+c_dfDIMouse2
+c_dfDIJoystick2
+c_dfDIJoystick
+c_dfDIKeyboard
+c_dfDIMouse

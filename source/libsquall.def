@@ -99,28 +99,31 @@ EXPORTS
     SQUALL_SetSpeakerMode @98
     SQUALL_Stop @99
     SquallChannelPlaying @100
-    SquallChannelSetVolume @101
-    SquallChannelStop @102
-    SquallFree @103
-    SquallInit @104
-    SquallPause @105
-    SquallSampleCreate @106
-    SquallSamplePlay @107
-    SquallSamplePlay3D @108
-    SquallSet3DAlgorithm @109
-    SquallSetBufferSize @110
-    SquallSetDevice @111
-    SquallSetHardwareAcceleration @112
-    SquallSetListenerDirection @113
-    SquallSetListenerPosition @114
-    SquallSetListenerUp @115
-    SquallSetListenerVelocity @116
-    SquallSetSpeakerMode @117
-    SquallSetVolume @118
-    _ZN8DllClassC1Ev @119
-    _ZN8DllClassC2Ev @120
-    _ZN8DllClassD0Ev @121
-    _ZN8DllClassD1Ev @122
-    _ZN8DllClassD2Ev @123
-    _ZTI8DllClass @124 DATA
-    _ZTV8DllClass @125 DATA
+    SquallChannelSetLoop @101
+    SquallChannelSetPlayPositionMs @102
+    SquallChannelSetVolume @103
+    SquallChannelStop @104
+    SquallFree @105
+    SquallInit @106
+    SquallPause @107
+    SquallSampleCreate @108
+    SquallSamplePlay @109
+    SquallSamplePlay3D @110
+    SquallSet3DAlgorithm @111
+    SquallSetBufferSize @112
+    SquallSetDevice @113
+    SquallSetHardwareAcceleration @114
+    SquallSetListenerDirection @115
+    SquallSetListenerPosition @116
+    SquallSetListenerUp @117
+    SquallSetListenerVelocity @118
+    SquallSetSpeakerMode @119
+    SquallSetVolume @120
+    SquallStop @121
+    _ZN8DllClassC1Ev @122
+    _ZN8DllClassC2Ev @123
+    _ZN8DllClassD0Ev @124
+    _ZN8DllClassD1Ev @125
+    _ZN8DllClassD2Ev @126
+    _ZTI8DllClass @127 DATA
+    _ZTV8DllClass @128 DATA

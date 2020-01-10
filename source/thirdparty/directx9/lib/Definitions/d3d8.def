@@ -1,0 +1,5 @@
+LIBRARY d3d8.dll
+EXPORTS
+ValidatePixelShader@@YGJPBKPBU_D3DCAPS8@@KQAPAD@Z
+ValidateVertexShader@@YGJPBK0PBU_D3DCAPS8@@KQAPAD@Z
+Direct3DCreate8@4

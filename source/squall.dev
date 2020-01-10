@@ -6,12 +6,12 @@ Type=3
 Ver=2
 ObjFiles=
 Includes=
-Libs=
+Libs=./thirdparty/oggvorbis/lib;./thirdparty/directx9/lib
 PrivateResource=
 ResourceIncludes=
 MakeIncludes=
 Compiler=-DBUILDING_DLL=1_@@_
-CppCompiler=-DBUILDING_DLL=1_@@_-D_USRDLL=1_@@_
+CppCompiler=-DBUILDING_DLL=1_@@_-D_USRDLL=1_@@_-Ithirdparty/oggvorbis/include_@@_-Ithirdparty/directx9/include_@@_
 _@@_-DSQUALL_EXPORTS=1
 _@@_-DNDEBUG=1_@@_
 Linker=-lvorbisfile -lvorbis -logg_@@_-ldsound -ldxguid -lwinmm -luuid -lole32_@@_
