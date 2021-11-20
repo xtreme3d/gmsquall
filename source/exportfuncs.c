@@ -26,9 +26,22 @@ SqExport double SquallSetDevice(double num)
     return SQUALL_SetDevice(int(num));
 }
 
+SqExport double SquallGetDevice()
+{
+    return SQUALL_GetDevice();
+}
+
 SqExport double SquallSetHardwareAcceleration(double hw2d, double hw3d)
 {
     return SQUALL_SetHardwareAcceleration(int(hw2d), int(hw3d));
+}
+
+SqExport double SquallGetHardwareAcceleration(double hw2dOrhw3d)
+{
+	int useHW2D, useHW3D;
+    SQUALL_GetHardwareAcceleration(&useHW2D, &useHW3D);
+    if (int(hw2dOrhw3d)) return useHW3D;
+    else return useHW2D;
 }
 
 SqExport double SquallSetSpeakerMode(double mode)
@@ -36,14 +49,29 @@ SqExport double SquallSetSpeakerMode(double mode)
     return SQUALL_SetSpeakerMode(int(mode));
 }
 
+SqExport double SquallGetSpeakerMode()
+{
+    return SQUALL_GetSpeakerMode();
+}
+
 SqExport double SquallSet3DAlgorithm(double algo)
 {
     return SQUALL_Set3DAlgorithm(int(algo));
 }
 
+SqExport double SquallGet3DAlgorithm()
+{
+    return SQUALL_Get3DAlgorithm();
+}
+
 SqExport double SquallSetBufferSize(double size)
 {
     return SQUALL_SetBufferSize(int(size));
+}
+
+SqExport double SquallGetBufferSize()
+{
+    return SQUALL_GetBufferSize();
 }
 
 SqExport double SquallSetListenerPosition(double x, double y, double z)
@@ -139,3 +167,4 @@ SqExport double SquallStop()
 {
     return SQUALL_Stop();
 }
+
